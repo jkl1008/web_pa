@@ -18,4 +18,4 @@ while True:
             owner = info['owner']['login']
             web_page = 'https://github.com/' + owner +'/' + repo_name
             webbrowser.open(web_page)
-    time.sleep(600)
+    time.sleep(800)
