@@ -4,5 +4,5 @@ def start_chrome():
 def find_strangers():
     pass
 
-def add_frens():
+def add_fren():
     pass
