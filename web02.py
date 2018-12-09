@@ -21,7 +21,7 @@ def check_repos(names):
         print('Stars:' + str(star))
         print('Forks:' + str(forks))
         print('Ecosys:' + str(ecosys_info))
-        print('-' * 8)
+        print('-' * 10)
 
 names = get_names()
 check_repos(names)
