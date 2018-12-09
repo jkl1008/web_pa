@@ -30,5 +30,5 @@ while True:
             message = 'The Project '+ p['name'] +'is qualified  ' + 'URL :' + p['html_url']
             push_it(message)
             result.append(p['html_url'])
-    time.sleep(600)
+    time.sleep(800)
 
