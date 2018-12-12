@@ -26,4 +26,4 @@ strangers = find_strangers()
 for s in strangers:
     s.click()
     time.sleep(3) # 防止网站封锁爬虫，每次点击后间隔3s
-print('完成加好友')
+print('完成加好友了')
