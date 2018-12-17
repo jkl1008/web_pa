@@ -1,0 +1,5 @@
+c = 'Ugrow-G0=7e0e6b57abe2c2f76f677abd9a9ed65d; login_sid_t=f2e9d9776d3fa260257fc176d6875f1f; cross_origin_proto=SSL; YF-V5-G0=020421dd535a1c903e89d913fb8a2988; WBStorage=bfb29263adc46711|undefined; _s_tentry=passport.weibo.com; wb_view_log=1920*10801; Apache=9174609780532.537.1545010432412; SINAGLOBAL=9174609780532.537.1545010432412; ULV=1545010432419:1:1:1:9174609780532.537.1545010432412:; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWVxgVAY_iF2Zrqljqu2-4j5JpX5K2hUgL.Fo24ehe7SK2fSoe2dJLoIEqLxK.LBo2LB.eLxKBLBonLBonLxKMLBozL1KMLxK.L1-BLBKz7e5tt; ALF=1576546441; SSOLoginState=1545010441; SCF=AiLOA-IpgI8iODuTrwF2dY52aqQKC9imcOj6nu8wAPhRG-mbIHY-DSxveCmcgddohkjopOqKGA9KVlQmRIP54uU.; SUB=_2A25xEo1aDeRhGedH61ER9S_JzT-IHXVSafmSrDV8PUNbmtAKLUvTkW9NUP1_tBUuBIK0Q-FPExJie8IqdvS1_OR0; SUHB=06ZE2yIUcRyckx; un=15256575634; wvr=6; YF-Page-G0=23b9d9eac864b0d725a27007679967df; wb_view_log_1903051563=1920*10801'
+cookie_list = []
+for one in c.split('; '):
+   k,v = one.split('=',1) #只分割到第一个等号
+   cookie_list.append({'name':k,'value':v})
